@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Clicker Premium Pro</title>
+  <link rel="stylesheet" href="/css/appStyles.css">
+</head>
+
+<body>
+  <main class="doc-container">
+    <header class="doc-topic">
+      <h1 class="doc-topic-text">cat clicker premium pro</h1>
+    </header>
+    <aside class="sidebar">
+      <header class="sidebar-topic">
+        <h2 class="sidebar-topic-text">select cat</h2>
+      </header>
+      <ul class="cat-menu"></ul>
+    </aside>
+    <section class="cat-render-area">
+      <fieldset class="cat-display-area">
+        <legend class="cat-clicks">Dummy Cat: 0</legend>
+        <h3 class="cat-display-name">Dummy Cat</h3>
+        <div class="cat-container"></div>
+      </fieldset>
+    </section>
+    <section class="admin-panel">
+      <button id="admin" class="admin-btn">admin</button>
+      <form class="admin-form">
+        <span class="error-message"></span>
+        <div class="admin-field-container">
+          <label for="cat-name" class="admin-field">name</label>
+          <input type="text" class="admin-txt" id="cat-name" required>
+        </div>
+        <div class="admin-field-container">
+          <label for="cat-img-url" class="admin-field">img url</label>
+          <input type="text" class="admin-txt" id="cat-img-url" required>
+        </div>
+        <div class="admin-field-container">
+          <label for="cat-admin-clicks" class="admin-field"># clicks</label>
+          <input type="text" class="admin-txt" id="cat-admin-clicks" required>
+        </div>
+        <div class="admin-btns-container">
+          <button id="admin-cancel" class="admin-btn">cancel</button>
+          <button id="admin-save" class="admin-btn">save</button>
+        </div>
+      </form>
+    </section>
+    <footer class="doc-note">
+      <p class="note-text">grow with google scholarship - udacity **2018**</p>
+    </footer>
+  </main>
+</body>
+<script src="js/app.js"></script>
+
+</html>
